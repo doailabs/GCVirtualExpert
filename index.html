@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat with GC resources</title>
+    <style>
+        #chatArea {
+            width: 80%;
+            height: 400px;
+            margin: auto;
+            border: 1px solid #000;
+            padding: 10px;
+            overflow-y: scroll;
+        }
+        #userInput {
+            width: 80%;
+            margin: auto;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="chatArea">
+    </div>
+    <form id="userInput">
+        <input type="text" id="inputField" placeholder="Write something..." autocomplete="off" required />
+        <button type="submit">Submit</button>
+    </form>
+    <script src="chat.js"></script> 
+</body>
+</html>
